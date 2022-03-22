@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/ourstory.css" />
+    
+    <title>Our Story</title>
+</head>
+<body>
+  
+  <nav>
+    <ul class="navbar">
+        <li class="navlinks"><a href="./home.html">Home</a></li>
+        <li class="navlinks"><a href="./ourstory.html">Our Story</a></li>
+        <li class="navlinks"><a href="./venue.html">Wedding Venue</a></li>
+        <li class="navlinks"><a href="./weddingparty.html">Wedding Party</a></li>
+        <li class="navlinks"><a href="./registry.html">Registry</a></li>
+        <li class="navlinks"><a href="./qna.html">Q&A</a></li>
+    </ul>
+</nav>
+
+    <main class="main">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/firstdate.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/camping.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/stephandsteven.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/cruise.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/disneychina.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/IMG_9239.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/slideshow/newyear.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../assets/party/gallery/IMG-5034 (1).jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+        
+            
+
+
+        
+       
+        <div class="main__right">
+          
+            <h2 class="h2">How We Met</h2>
+
+
+            <p class="main__writing">On January 23rd, 2015, our two souls walked in to this little place in Davie, FL called Round Up Western Country Club. We were both new to the single life after failed relationships and had no intentions on meeting anyone that night. Stephany was there every Friday night line dancing and Steven had not been to Round Up in a while. To a surprise, our friends knew each other and therefore we got to hang out all night. An exchange of numbers lead to the start of a great group of friends. 
+            After a couple of months of hanging out as a group, and a very awkward solo hang out, we met for a little guitar hero session at a Dave & Busters and our relationship developed. </p>
+         
+            <h2 class="h2">The Proposal</h2>
+            
+            <p class="main__writing">We planned a spontaneous trip to Arizona for a road trip to nearby states and visit friends in Las Vegas. Our arrival was delayed and we needed to be up at 4AM for a hot air balloon ride. Steven planned to propose on the hot air balloon but looking like canned sardines in the basket was not ideal. We drove a couple hours to Sedona from Phoenix to complete the famous Devils Bridge hike. By this point, we were running on 2 hours of sleep and still had to drive 3 hrs to our final stop that day. We hiked approximately 2 miles to the bridge and then climbed up to then wait an hour to get on the bridge for some photos. We were exhausted but the view was so worth it. It was the most perfect day. While on the bridge, we took the next step in committing to each other for the rest of our lives.</p> </div>
+    </main>
+</body>
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+  </script>
+    
+    
+        
+</html>
