@@ -37,39 +37,8 @@ nav {
 
 .navlinks {
   color: black;
-}
-.navlinks:hover {
-  color: rgba(173, 11, 11, 0.979);
-}
 
-ul {
-  padding: 0;
-}
-
-.link {
-  text-decoration: underline;
-}
-
-.h2 {
-  font-family: "MonteCarlo", cursive;
-  margin: 0;
-}
-@media (min-width: 320px) and (max-width: 780px) {
-  .h2 {
-    font-size: 5vh;
-    display: flex;
-    justify-content: center;
+  &:hover {
+    color: rgba(173, 11, 11, 0.979);
   }
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  margin: 0 2rem;
-  padding: 2rem;
-  text-align: center;
-}/*# sourceMappingURL=registration.css.map */

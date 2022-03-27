@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styles/home.css" />
-    <title>Balboa Wedding-Home </title>
-</head>
-<body>
+    <title>Balboa Wedding-Home</title>
+  </head>
+  <body>
     <nav>
-        <ul class="navbar">
-            <li class="navlinks"><a href="./home.html">Home</a></li>
-            <li class="navlinks"><a href="./ourstory.html">Our Story</a></li>
-            <li class="navlinks"><a href="./venue.html">Wedding Venue</a></li>
-            <li class="navlinks"><a href="./weddingparty.html">Wedding Party</a></li>
-            <li class="navlinks"><a href="./registry.html">Registry</a></li>
-            <li class="navlinks"><a href="./qna.html">Q&A</a></li>
-        </ul>
+      <ul class="navbar">
+        <li><a href="./home.html" class="navlinks">Home</a></li>
+        <li><a href="./ourstory.html" class="navlinks">Our Story</a></li>
+        <li><a href="./venue.html" class="navlinks">Wedding Venue</a></li>
+        <li>
+          <a href="./weddingparty.html" class="navlinks">Wedding Party</a>
+        </li>
+        <li><a href="./registry.html" class="navlinks">Registry</a></li>
+        <li><a href="./qna.html" class="navlinks">Q&A</a></li>
+      </ul>
     </nav>
     <main>
-        
-<div class="main__pic">
-    
-</div>
+      <div class="main__pic"></div>
 
-   <div class="countdownclock">
-        <p class="countdown">Counting down until we say "I do!"</p> 
+      <div class="countdownclock">
+        <p class="countdown">Counting down until we say "I do!"</p>
         <p id="countdown"></p>
-    </div>
+      </div>
     </main>
-        
-        <script>
-        // Wedding date countdown
-        var countDownDate = new Date("Feb 3, 2023 16:00:00").getTime();
-        
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-        
-          var now = new Date().getTime();
-            
-          var distance = countDownDate - now;
-            
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-          // Output the result in an element with id="countdown"
-          document.getElementById("countdown").innerHTML = days + "Days " + hours + "Hours " 
-          + minutes + "Mins " + seconds + "Secs ";
-            
-          
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "Wedding Day!";
-          }
-        }, 1000);
-        </script>
 
+    <script>
+      // Wedding date countdown
+      var countDownDate = new Date("Feb 3, 2023 16:00:00").getTime();
 
-</body>
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="countdown"
+        document.getElementById("countdown").innerHTML =
+          days +
+          "Days " +
+          hours +
+          "Hours " +
+          minutes +
+          "Mins " +
+          seconds +
+          "Secs ";
+
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "Wedding Day!";
+        }
+      }, 1000);
+    </script>
+  </body>
 </html>
