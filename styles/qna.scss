@@ -1,77 +1,4 @@
 @use "../styles/_global.scss" as *;
-// body {
-//   background-image: url("../assets/party/gallery/whitebackgound.jpeg");
-//   color: black;
-//   font-family: "Spectral SC", serif;
-//   margin: 0;
-
-//   @media (min-width: 780px) {
-//     margin: 0 6rem;
-//   }
-// }
-
-// a {
-//   text-decoration: none;
-//   background: none;
-// }
-// a:visited {
-//   color: black;
-// }
-
-// a:hover {
-//   color: rgba(173, 11, 11, 0.979);
-// }
-
-ul {
-  padding: 0;
-}
-
-// .navbar {
-//   @media (min-width: 320px) and(max-width:1440px) {
-//     background-image: url("../assets/party/gallery/bannernew.jpg");
-//     background-size: cover;
-//     height: 5rem;
-//     background-size: 30rem;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     list-style: none;
-//     text-decoration: none;
-//     display: flex;
-//     flex-wrap: wrap;
-//     align-content: center;
-//     align-items: center;
-//     justify-content: center;
-//     align-content: center;
-//     font-size: 0.5rem;
-//     margin: 0 2rem;
-//     padding-top: 2rem;
-//     background-color: white;
-//   }
-
-//   @media (min-width: 780px) {
-//     background-image: url("../assets/party/gallery/bannernew.jpg");
-//     background-size: cover;
-//     background-size: 65vw;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     list-style: none;
-//     text-decoration: none;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     align-items: center;
-//     height: 25vh;
-//   }
-// }
-// .navlinks {
-//   font-size: 0.5rem;
-//   margin: 0.25rem 0.5rem;
-//   display: flex;
-
-//   @media (min-width: 780px) {
-//     margin: 2rem;
-//   }
-// }
 
 .link {
   text-decoration: underline;
@@ -95,18 +22,22 @@ ul {
 
 .main {
   background: white;
-  margin: 0rem;
-  padding: 1rem;
-  @media (min-width: 320px) and (max-width: 780px) {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 0 2rem;
+
+  h3 {
+    padding-left: 1rem;
   }
+  // margin: 0rem;
+  // padding: 1rem;
+  // @media (min-width: 320px) and (max-width: 780px) {
+  //   list-style: none;
+  //   text-decoration: none;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   padding: 0 1rem;
+  //   margin: 0 2rem;
+  // }
 }
 
 .guest__links {

@@ -43,10 +43,6 @@ nav {
   color: rgba(173, 11, 11, 0.979);
 }
 
-ul {
-  padding: 0;
-}
-
 .link {
   text-decoration: underline;
 }
@@ -71,20 +67,9 @@ ul {
 
 .main {
   background: white;
-  margin: 0rem;
-  padding: 1rem;
 }
-@media (min-width: 320px) and (max-width: 780px) {
-  .main {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 0 2rem;
-  }
+.main h3 {
+  padding-left: 1rem;
 }
 
 @media (min-width: 320px) and (max-width: 780px) {
