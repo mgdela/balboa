@@ -1,47 +1,4 @@
-body {
-  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
-  color: black;
-  font-family: "Spectral SC", serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  background-image: url("../assets/party/gallery/bannernew.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 30vw;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-  font-size: 0.5rem;
-  justify-content: space-evenly;
-  padding-left: 0;
-  padding-top: 16%;
-  margin: 0;
-}
-
-.navbar li {
-  list-style-type: none;
-}
-
-.navlinks {
-  color: black;
-}
-.navlinks:hover {
-  color: rgba(173, 11, 11, 0.979);
-}
-
+@use "../styles/_global.scss" as *;
 .main {
   background-color: white;
 }
@@ -80,4 +37,5 @@ nav {
 
 .link {
   color: rgba(173, 11, 11, 0.979);
-}/*# sourceMappingURL=venue.css.map */
+}
+/*# sourceMappingURL=venue.css.map */

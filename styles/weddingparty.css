@@ -1,47 +1,4 @@
-body {
-  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
-  color: black;
-  font-family: "Spectral SC", serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  background-image: url("../assets/party/gallery/bannernew.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 30vw;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-  font-size: 0.5rem;
-  justify-content: space-evenly;
-  padding-left: 0;
-  padding-top: 16%;
-  margin: 0;
-}
-
-.navbar li {
-  list-style-type: none;
-}
-
-.navlinks {
-  color: black;
-}
-.navlinks:hover {
-  color: rgba(173, 11, 11, 0.979);
-}
-
+@use "../styles/_global.scss" as *;
 ul {
   padding: 0;
 }
@@ -52,45 +9,81 @@ ul {
 
 .main {
   padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: white;
   margin: 0rem;
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .main {
     background: white;
     margin: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 1rem;
-    align-content: flex-start;
-    align-items: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 2rem;
   }
 }
+
 .main__h2 {
   font-family: "MonteCarlo", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .main__h2 {
     background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 5vh;
     margin: 0;
   }
 }
+
 .main__p {
   font-family: "Spectral SC", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .main__p {
     background: white;
@@ -98,56 +91,96 @@ ul {
 }
 
 .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   background: white;
   margin: 0rem;
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .section {
     margin: 0 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
+
 .section__left {
   padding: 0rem;
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .section__left {
     background: white;
     margin: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     justify-items: center;
     padding: 0.5rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .section__lt {
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .section__right {
     background: white;
     margin: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     justify-items: center;
     padding: 0.5rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
+
 @media (min-width: 320px) and (max-width: 780px) {
   .section__rt {
     list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -157,4 +190,5 @@ img {
 
 .moh {
   font-size: 2vh;
-}/*# sourceMappingURL=weddingparty.css.map */
+}
+/*# sourceMappingURL=weddingparty.css.map */
