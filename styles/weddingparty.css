@@ -42,119 +42,52 @@ nav {
   color: rgba(173, 11, 11, 0.979);
 }
 
-ul {
-  padding: 0;
-}
-
 .link {
   text-decoration: underline;
 }
 
 .main {
+  background-color: white;
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: white;
-  margin: 0rem;
-}
-@media (min-width: 320px) and (max-width: 780px) {
-  .main {
-    background: white;
-    margin: 0rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    align-content: flex-start;
-    align-items: center;
-    margin: 0 2rem;
-  }
 }
 .main__h2 {
   font-family: "MonteCarlo", cursive;
-  display: flex;
-  justify-content: center;
-}
-@media (min-width: 320px) and (max-width: 780px) {
-  .main__h2 {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: center;
-    font-size: 5vh;
-    margin: 0;
-  }
+  text-align: center;
+  margin-top: 0;
 }
 .main__p {
   font-family: "Spectral SC", serif;
-  display: flex;
-  justify-content: center;
-}
-@media (min-width: 320px) and (max-width: 780px) {
-  .main__p {
-    background: white;
-  }
+  text-align: center;
 }
 
 .section {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background: white;
-  margin: 0rem;
-}
-@media (min-width: 320px) and (max-width: 780px) {
-  .section {
-    margin: 0 2rem;
-    display: flex;
-    align-items: flex-start;
-  }
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
 }
 .section__left {
-  padding: 0rem;
+  flex-direction: column;
+  width: 55%;
+  padding: 0;
+  margin: 0;
 }
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__left {
-    background: white;
-    margin: 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    padding: 0.5rem;
-    align-items: center;
-  }
+.section__right {
+  padding: 0;
+  margin: 0;
+  width: 45%;
 }
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__lt {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-  }
+.section h3 {
+  font-size: 13.3px;
 }
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__right {
-    background: white;
-    margin: 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    padding: 0.5rem;
-    align-items: center;
-  }
+.section strong {
+  font-size: 14px;
 }
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__rt {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-  }
+
+.section li {
+  list-style-type: none;
 }
 
 img {
-  height: 10vh;
-}
-
-.moh {
-  font-size: 2vh;
+  height: 20vw;
 }/*# sourceMappingURL=weddingparty.css.map */
