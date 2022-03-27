@@ -1,4 +1,5 @@
 @use "../styles/_global.scss" as *;
+@use "../styles/mixins" as *;
 
 .main {
   background-color: white;
@@ -38,4 +39,18 @@
 
 .link {
   color: rgba(173, 11, 11, 0.979);
+}
+
+
+.address{
+
+  @include tablet{
+    padding-right:0;
+  }
+
+  @include desktop{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+  }
 }

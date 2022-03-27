@@ -1,3 +1,5 @@
+@use "../styles/mixins" as *;
+
 body {
   background-image: url("../assets/party/gallery/whitebackgound.jpeg");
   color: black;
@@ -12,6 +14,10 @@ body {
 
 a {
   text-decoration: none;
+  color:black;
+  &:hover {
+    color: rgba(173, 11, 11, 0.979);
+  }
 }
 
 nav {
@@ -33,12 +39,18 @@ nav {
 
 .navbar li {
   list-style-type: none;
+
 }
 
 .navlinks {
   color: black;
 
-  &:hover {
-    color: rgba(173, 11, 11, 0.979);
+  @include tablet{
+    font-size: 1rem;
   }
+
+  @include desktop {
+    font-size: 1.5rem;
+  }
+ 
 }

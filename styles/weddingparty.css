@@ -1,4 +1,58 @@
-@use "../styles/_global.scss" as *;
+body {
+  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
+  color: black;
+  font-family: "Spectral SC", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgba(173, 11, 11, 0.979);
+}
+
+nav {
+  background-image: url("../assets/party/gallery/bannernew.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 16%;
+  margin: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navlinks {
+  color: black;
+}
+@media (min-width: 768px) {
+  .navlinks {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .navlinks {
+    font-size: 1.5rem;
+  }
+}
+
 .link {
   text-decoration: underline;
 }
@@ -7,50 +61,37 @@
   background-color: white;
   padding: 1rem;
 }
-
 .main__h2 {
   font-family: "MonteCarlo", cursive;
   text-align: center;
   margin-top: 0;
+  font-size: 2.3rem;
 }
-
 .main__p {
   font-family: "Spectral SC", serif;
   text-align: center;
 }
 
 .section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .section__left {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 55%;
   padding: 0;
   margin: 0;
 }
-
 .section__right {
   padding: 0;
   margin: 0;
   width: 45%;
 }
-
 .section h3 {
   font-size: 13.3px;
 }
-
 .section strong {
   font-size: 14px;
 }
@@ -61,5 +102,4 @@
 
 img {
   height: 20vw;
-}
-/*# sourceMappingURL=weddingparty.css.map */
+}/*# sourceMappingURL=weddingparty.css.map */

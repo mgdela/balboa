@@ -1,9 +1,89 @@
-@use "../styles/_global.scss" as *;
-ul {
+body {
+  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
+  color: black;
+  font-family: "Spectral SC", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8%;
+  margin-right: 8%;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.link {
-  text-decoration: underline;
+a {
+  text-decoration: none;
+  color: black;
 }
-/*# sourceMappingURL=schedule.css.map */
+a:hover {
+  color: rgba(173, 11, 11, 0.979);
+}
+
+nav {
+  background-image: url("../assets/party/gallery/bannernew.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 16%;
+  margin: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navlinks {
+  color: black;
+}
+@media (min-width: 768px) {
+  .navlinks {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .navlinks {
+    font-size: 1.5rem;
+  }
+}
+
+.main {
+  background-color: white;
+  padding: 1rem;
+}
+
+.h2 {
+  background: white;
+  font-family: "MonteCarlo", cursive;
+  margin: 0;
+  padding: 3vh;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+table {
+  font-family: "Spectral SC", serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-bottom: 2px solid #dadada;
+  text-align: left;
+  padding: 5px;
+}
+
+.date {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .date {
+    width: 30%;
+  }
+}/*# sourceMappingURL=schedule.css.map */

@@ -12,6 +12,7 @@
     font-family: "MonteCarlo", cursive;
     text-align: center;
     margin-top: 0;
+    font-size: 2.3rem;
   }
 
   &__p {
@@ -55,103 +56,4 @@
 img {
   height: 20vw;
 }
-// @media (min-width: 320px) and (max-width: 780px) {
-//   background: white;
-//   margin: 0rem;
-//   display: flex;
-//   flex-direction: column;
-//   padding: 1rem;
-//   align-content: flex-start;
-//   align-items: center;
-//   margin: 0 2rem;
-// }
 
-//   &__h2 {
-//     font-family: "MonteCarlo", cursive;
-//     display: flex;
-//     justify-content: center;
-
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       background: white;
-//       display: flex;
-//       flex-direction: column;
-//       align-content: flex-start;
-//       align-items: center;
-//       font-size: 5vh;
-//       margin: 0;
-//     }
-//   }
-
-//   &__p {
-//     font-family: "Spectral SC", serif;
-//     display: flex;
-//     justify-content: center;
-
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       background: white;
-//     }
-//   }
-// }
-
-// .section {
-//   display: flex;
-//   justify-content: center;
-//   align-items: flex-start;
-//   background: white;
-//   margin: 0rem;
-
-//   @media (min-width: 320px) and (max-width: 780px) {
-//     margin: 0 2rem;
-//     display: flex;
-//     align-items: flex-start;
-//   }
-
-//   &__left {
-//     padding: 0rem;
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       background: white;
-//       margin: 0rem;
-//       display: flex;
-//       flex-direction: column;
-//       justify-items: center;
-//       padding: 0.5rem;
-//       align-items: center;
-//     }
-//   }
-
-//   &__lt {
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       list-style-type: none;
-//       display: flex;
-//       flex-direction: column;
-//     }
-//   }
-
-//   &__right {
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       background: white;
-//       margin: 0rem;
-//       display: flex;
-//       flex-direction: column;
-//       justify-items: center;
-//       padding: 0.5rem;
-//       align-items: center;
-//     }
-//   }
-
-//   &__rt {
-//     @media (min-width: 320px) and (max-width: 780px) {
-//       list-style-type: none;
-//       display: flex;
-//       flex-direction: column;
-//     }
-//   }
-// }
-
-// img {
-//   height: 10vh;
-// }
-
-// .moh {
-//   font-size: 2vh;
-// }
