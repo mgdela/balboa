@@ -1,47 +1,4 @@
-body {
-  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
-  color: black;
-  font-family: "Spectral SC", serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  background-image: url("../assets/party/gallery/bannernew.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 30vw;
-  width: 100%;
-}
-
-.navbar {
-  display: flex;
-  font-size: 0.5rem;
-  justify-content: space-evenly;
-  padding-left: 0;
-  padding-top: 16%;
-  margin: 0;
-}
-
-.navbar li {
-  list-style-type: none;
-}
-
-.navlinks {
-  color: black;
-}
-.navlinks:hover {
-  color: rgba(173, 11, 11, 0.979);
-}
-
+@use "../styles/_global.scss" as *;
 .link {
   text-decoration: underline;
 }
@@ -49,228 +6,60 @@ nav {
 .main {
   background-color: white;
   padding: 1rem;
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: white;
-  margin: 0rem;
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .main {
-    background: white;
-    margin: 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 1rem;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 2rem;
-  }
-=======
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .main__h2 {
   font-family: "MonteCarlo", cursive;
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .main__h2 {
-    background: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 5vh;
-    margin: 0;
-  }
-=======
   text-align: center;
   margin-top: 0;
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .main__p {
   font-family: "Spectral SC", serif;
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .main__p {
-    background: white;
-  }
-=======
   text-align: center;
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  background: white;
-  margin: 0rem;
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .section {
-    margin: 0 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-=======
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .section__left {
-<<<<<<< HEAD
-  padding: 0rem;
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__left {
-    background: white;
-    margin: 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    justify-items: center;
-    padding: 0.5rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__lt {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__right {
-    background: white;
-    margin: 0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    justify-items: center;
-    padding: 0.5rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 780px) {
-  .section__rt {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-=======
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 55%;
   padding: 0;
   margin: 0;
 }
+
 .section__right {
   padding: 0;
   margin: 0;
   width: 45%;
 }
+
 .section h3 {
   font-size: 13.3px;
 }
+
 .section strong {
   font-size: 14px;
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .section li {
   list-style-type: none;
 }
 
-<<<<<<< HEAD
-.moh {
-  font-size: 2vh;
-}
-/*# sourceMappingURL=weddingparty.css.map */
-=======
 img {
   height: 20vw;
-}/*# sourceMappingURL=weddingparty.css.map */
->>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
+}
+/*# sourceMappingURL=weddingparty.css.map */
