@@ -1,16 +1,58 @@
-@use "../styles/_global.scss" as *;
-ul {
+body {
+  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
+  color: black;
+  font-family: "Spectral SC", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8%;
+  margin-right: 8%;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.link {
-  text-decoration: underline;
+a {
+  text-decoration: none;
 }
 
-.h2 {
-  font-family: "MonteCarlo", cursive;
+nav {
+  background-image: url("../assets/party/gallery/bannernew.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 16%;
   margin: 0;
 }
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navlinks {
+  color: black;
+}
+.navlinks:hover {
+  color: rgba(173, 11, 11, 0.979);
+}
+
+.main {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.main__h2 {
+  font-family: "MonteCarlo", cursive;
+  font-size: 2.3rem;
+  margin: 0;
+}
+<<<<<<< HEAD
 
 @media (min-width: 320px) and (max-width: 780px) {
   .h2 {
@@ -46,3 +88,8 @@ ul {
   text-align: center;
 }
 /*# sourceMappingURL=registration.css.map */
+=======
+.main__p {
+  margin-top: 1rem;
+}/*# sourceMappingURL=registration.css.map */
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01

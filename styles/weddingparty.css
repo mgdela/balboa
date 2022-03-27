@@ -1,6 +1,45 @@
-@use "../styles/_global.scss" as *;
-ul {
+body {
+  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
+  color: black;
+  font-family: "Spectral SC", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8%;
+  margin-right: 8%;
   padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-image: url("../assets/party/gallery/bannernew.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 16%;
+  margin: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navlinks {
+  color: black;
+}
+.navlinks:hover {
+  color: rgba(173, 11, 11, 0.979);
 }
 
 .link {
@@ -8,7 +47,9 @@ ul {
 }
 
 .main {
+  background-color: white;
   padding: 1rem;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,10 +83,13 @@ ul {
             align-items: center;
     margin: 0 2rem;
   }
+=======
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .main__h2 {
   font-family: "MonteCarlo", cursive;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,10 +116,15 @@ ul {
     font-size: 5vh;
     margin: 0;
   }
+=======
+  text-align: center;
+  margin-top: 0;
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .main__p {
   font-family: "Spectral SC", serif;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,12 +137,16 @@ ul {
   .main__p {
     background: white;
   }
+=======
+  text-align: center;
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -114,9 +167,15 @@ ul {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+=======
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 .section__left {
+<<<<<<< HEAD
   padding: 0rem;
 }
 
@@ -182,13 +241,36 @@ ul {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+=======
+  flex-direction: column;
+  width: 55%;
+  padding: 0;
+  margin: 0;
+}
+.section__right {
+  padding: 0;
+  margin: 0;
+  width: 45%;
+}
+.section h3 {
+  font-size: 13.3px;
+}
+.section strong {
+  font-size: 14px;
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
-img {
-  height: 10vh;
+.section li {
+  list-style-type: none;
 }
 
+<<<<<<< HEAD
 .moh {
   font-size: 2vh;
 }
 /*# sourceMappingURL=weddingparty.css.map */
+=======
+img {
+  height: 20vw;
+}/*# sourceMappingURL=weddingparty.css.map */
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01

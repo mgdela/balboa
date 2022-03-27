@@ -1,6 +1,46 @@
-@use "../styles/_global.scss" as *;
-ul {
+@charset "UTF-8";
+body {
+  background-image: url("../assets/party/gallery/whitebackgound.jpeg");
+  color: black;
+  font-family: "Spectral SC", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8%;
+  margin-right: 8%;
   padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-image: url("../assets/party/gallery/bannernew.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 16%;
+  margin: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navlinks {
+  color: black;
+}
+.navlinks:hover {
+  color: rgba(173, 11, 11, 0.979);
 }
 
 .link {
@@ -32,9 +72,8 @@ ul {
 
 .main {
   background: white;
-  margin: 0rem;
-  padding: 1rem;
 }
+<<<<<<< HEAD
 
 @media (min-width: 320px) and (max-width: 780px) {
   .main {
@@ -56,6 +95,10 @@ ul {
     padding: 0 1rem;
     margin: 0 2rem;
   }
+=======
+.main h3 {
+  padding-left: 1rem;
+>>>>>>> d0535b8606b02c30f98b96b199deea69be397b01
 }
 
 @media (min-width: 320px) and (max-width: 780px) {
