@@ -67,6 +67,7 @@ nav {
   font-family: "MonteCarlo", cursive;
   margin: 0;
   padding: 3vh;
+  text-align: center;
 }
 @media (min-width: 320px) and (max-width: 780px) {
   .h2 {
