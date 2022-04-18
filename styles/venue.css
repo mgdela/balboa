@@ -78,6 +78,9 @@ nav {
   padding-right: 1rem;
   text-align: justify;
 }
+.p__center {
+  text-align: center;
+}
 
 .address__right {
   padding-left: 1rem;

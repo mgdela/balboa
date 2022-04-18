@@ -25,6 +25,10 @@
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: justify;
+
+  &__center{
+    text-align: center;
+  }
 }
 
 .address__right {
